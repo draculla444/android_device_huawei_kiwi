@@ -176,6 +176,9 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib/libflp.so|libshim_flp.so:\
     /system/vendor/lib/libmmcamera_hdr_gb_lib.so|/system/vendor/lib/libmmqjpeg_codec.so
 
+# Snapdragon LLVM
+TARGET_USE_SDCLANG := true
+
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_kiwi
 
